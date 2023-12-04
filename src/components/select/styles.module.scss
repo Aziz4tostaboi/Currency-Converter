@@ -1,0 +1,27 @@
+.select-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  :global .custom-select__indicator-separator {
+    display: none;
+  }
+  :global .custom-select__value-container {
+    padding: 0;
+  }
+  .custom-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.select {
+  width: 110px;
+}
+
+.label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}

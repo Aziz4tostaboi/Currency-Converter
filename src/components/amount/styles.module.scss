@@ -1,0 +1,17 @@
+.amount-wrap {
+  margin-top: 20px;
+  .label {
+    font-weight: bold;
+  }
+
+  .input {
+    padding: 10px 0px;
+    display: block;
+    width: 259px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 5px;
+  }
+}
+
