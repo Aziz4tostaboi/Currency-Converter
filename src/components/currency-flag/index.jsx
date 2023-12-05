@@ -16,7 +16,7 @@ const CurrencyFlag=(props)=>{
     return(
        <StyledImgWrap $heighgt={height} $width={width} className={styles["currency-flag"]}>
            <img src={flags[currency.toLowerCase()]} alt="currency flag"/>
-       </StyledImgWrap>
+        </StyledImgWrap>
     )
 }
 export default CurrencyFlag
